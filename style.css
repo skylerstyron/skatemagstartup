@@ -11,7 +11,7 @@ html {
 
 .container {
   width: 100% !important;
-  background: url(skater-2.jpg) no-repeat center bottom !important;
+  background: url(Images/skater-2.jpg) no-repeat center bottom !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
