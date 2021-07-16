@@ -64,3 +64,8 @@ hr {
   background-color: #666 !important;
   color: #fafafa;
 }
+
+.preview {
+  text-align: center;
+  width: 80%;
+}
