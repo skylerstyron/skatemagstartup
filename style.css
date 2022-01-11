@@ -5,33 +5,32 @@ html {
 }
 
 .body-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
   width: 100%;
   background-color: #fafafa;
 }
 
-.container {
-  width: 100% !important;
-  background: url(Images/skater-2.jpg) no-repeat center bottom !important;
+.inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  background: url(Images/skater-2.jpg) no-repeat center bottom;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
   background-size: cover !important;
 }
 
-.navbar-brand, .nav-link{
-  color: #000 !important;
-  font-family: 'Montserrat';
-}
-
 h1 {
   text-align: center;
   font-family: 'Montserrat';
-  margin-bottom: 40px;
-  color: #757575;
-}
-
-.empty-space {
-  height: 1rem;
+  color: #fafafa;
 }
 
 .btn-container {
@@ -41,31 +40,27 @@ h1 {
 }
 
 hr {
-  margin: auto;
+  margin: 1rem auto 1rem auto;
   z-index: 100;
-  color: #fff;
-  border: solid 1px #fff;
+  border: solid 1px #fafafa;
   max-width: 65px;
+  opacity: .25;
 }
 
 .btn {
-
-}
-
-#btn-xl {
-  background-color: #fafafa !important;
-  color: #666;
-  border: #fafafa;
+  background-color: #333 !important;
+  color: #fafafa;
+  text-transform: uppercase;
+  border: none;
   padding: .5rem 1rem;
   margin-top: 10px;
 }
 
-#btn-xl:hover {
-  background-color: #666 !important;
+.btn:hover {
+  background-color: #333 !important;
   color: #fafafa;
-}
-
-.preview {
-  text-align: center;
-  width: 80%;
+  -webkit-box-shadow:0px 0px 90px 30px #bb5222e6;
+  -moz-box-shadow: 0px 0px 90px 30px #bb5222e6;
+  box-shadow: 0px 0px 90px 30px #bb5222e6;
+  transition: 0.5s;
 }
